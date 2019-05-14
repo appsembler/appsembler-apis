@@ -1,0 +1,8 @@
+coverage==4.5.3
+flake8==3.7.7
+pytest==4.5.0
+pytest-django==3.4.8
+pytest-cov==2.7.1
+tox==3.10.0
+pytest-mock==1.10.4
+pytest-pythonpath==0.7.3

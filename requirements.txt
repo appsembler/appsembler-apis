@@ -1,0 +1,4 @@
+
+-r requirements/requirements-hawthorn.txt
+-r requirements/requirements-testing.txt
+-r requirements/requirements-packaging.txt

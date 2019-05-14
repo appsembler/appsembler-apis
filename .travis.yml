@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - "2.7"
+
+env:
+  - TOXENV=OPENEDX_HAWTHORN
+
+install:
+  - pip install tox tox-travis
+
+scripts:
+  - flake8 appsembler_apis
+  - py.test --cov=./
+  - bash <(curl -s https://codecov.io/bash)
+  - tox
